@@ -1,0 +1,8 @@
+System programming 실습시간에 퀴즈 페이지에있는
+주소에 들어가 오픈소스를 다운받았다.
+다운 받은 후에 build와 debug-build, cgdb를 이용해 프로그램을 테스트해 보았다.
+Eclipse + Cmake를 사용하였다.
+소스파일에 있는 항목들을 찾기 쉽게 tag파일을 생성했다. Exuberant ctags를 사용했다.
+etags를 이용했다. f옵션으로 이름을 MyFile로 지정했다.
+emacs를 이용해서 tags의 내용을 확인(+vi)했다.
+확인 후 파일안에서 (vi) tags를 통해서 함수이동을 해보았고 (ta) stack의 history까지 확인했다.

@@ -1,0 +1,6 @@
+1. 시나리오 1는 fifo에 write 부터 접근한다.
+   read를 기다리다가 cat 이 오면 ls -alF 정보를 write 하고 cat에서 read한다.
+
+2. 시나리오 2는 fifo에 read 부터 접근한다.
+ write를 기다리다가 > 가 오면 ls -alF 정보를 write 하고 cat에서 read한다.
+                                             
